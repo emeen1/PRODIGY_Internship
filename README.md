@@ -8,8 +8,6 @@ Each task is organized in its own directory, following the naming convention `PR
 
 ### What You’ll Find:
 - Task-01: Responsive Landing Page with Interactive Navigation Menu  
-- Task-02: [Description of your second task]  
-- Task-03: [Description of your third task]  
 - And more...
 
 ### Technologies Used:
@@ -21,5 +19,6 @@ Each task is organized in its own directory, following the naming convention `PR
 Feel free to check out the individual tasks and explore the projects I worked on during my internship journey. The tasks are designed to give you insights into my growth as a web developer and my hands-on experience in creating functional and dynamic websites.
 
 🔗 **Explore each task below:**
-- [Task-01: Responsive Landing Page](https://github.com/your-username/PRODIGY_WD_Task01) LinkedIn post : https://www.linkedin.com/posts/imane-n-7aa947266_html-css-javascript-activity-7261088961974923264-qNaB?utm_source=share&utm_medium=member_desktop
-- [Task-02: Project link]
+- [Task-01: Responsive Landing Page](https://github.com/your-username/PRODIGY_WD_Task01)
+- Preview Result_Task01 : https://www.linkedin.com/posts/imane-n-7aa947266_html-css-javascript-activity-7261088961974923264-qNaB?utm_source=share&utm_medium=member_desktop
+
