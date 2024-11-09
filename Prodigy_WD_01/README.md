@@ -1,24 +1,22 @@
-# PRODIGY_InfoTech_Internship
+# PRODIGY_WD_Task01
 
-Welcome to my GitHub repository, where I showcase all the tasks completed during my internship at Prodigy InfoTech. In this repository, you'll find the projects I’ve worked on as part of the **Web Development Internship Program**, including landing pages, interactive features, and responsive designs.
+**Project:** Interactive Landing Page with Dynamic Navigation Menu
 
-### Repository Structure:
+This project was completed as part of my internship with **Prodigy InfoTech**. The goal was to create a responsive landing page with an interactive navigation menu that changes color and style based on user interactions, such as scrolling and hovering.
 
-Each task is organized in its own directory, following the naming convention `PRODIGY_WD_TaskNumber`. This allows for clear navigation between projects and a structured presentation of the work completed.
+## Key Features:
+- **Responsive Design:** The landing page is fully responsive, adapting to various screen sizes to ensure a seamless user experience across devices.
+- **Interactive Navigation Menu:** The navigation menu is fixed at the top of the page, remaining visible as the user scrolls. The background and font color of the menu dynamically change based on user interactions like scrolling and hovering over menu items.
+- **HTML Structure:** The page and navigation menu are built using semantic HTML5 elements to ensure a clear, accessible structure.
+- **CSS Styling:** Modern CSS techniques were used for styling, including flexbox for layout, transitions for smooth hover effects, and media queries for device compatibility.
+- **JavaScript Interactivity:** JavaScript is used to add interactivity to the navigation menu, with color changes triggered by scrolling and hovering.
 
-### What You’ll Find:
-- Task-01: Responsive Landing Page with Interactive Navigation Menu  
-- And more...
+## Technologies Used:
+- HTML
+- CSS (Flexbox, Transitions, Media Queries)
+- JavaScript (DOM Manipulation, Event Listeners)
 
-### Technologies Used:
-- **HTML**: Semantic structures and web page markup
-- **CSS**: Flexbox, Transitions, Media Queries for responsive layouts
-- **JavaScript**: DOM manipulation and event listeners for interactivity
-- **Git**: Version control for all projects
-
-Feel free to check out the individual tasks and explore the projects I worked on during my internship journey. The tasks are designed to give you insights into my growth as a web developer and my hands-on experience in creating functional and dynamic websites.
-
-🔗 **Explore each task below:**
-- [Task-01: Responsive Landing Page](https://github.com/your-username/PRODIGY_WD_Task01)
-- Preview Result_Task01 : https://www.linkedin.com/posts/imane-n-7aa947266_html-css-javascript-activity-7261088961974923264-qNaB?utm_source=share&utm_medium=member_desktop
-
+## Learning Outcomes:
+- Gained hands-on experience with responsive web design and UI development.
+- Enhanced skills in creating dynamic, interactive web elements.
+- Practiced implementing JavaScript to manipulate the DOM based on user interactions.
