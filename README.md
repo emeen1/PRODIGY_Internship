@@ -4,7 +4,7 @@ Welcome to my GitHub repository, where I showcase all the tasks completed during
 
 ### Repository Structure:
 
-Each task is organized in its own directory, following the naming convention `PRODIGY_TrackCode_TaskNumber`. This allows for clear navigation between projects and a structured presentation of the work completed.
+Each task is organized in its own directory, following the naming convention `PRODIGY_WD_TaskNumber`. This allows for clear navigation between projects and a structured presentation of the work completed.
 
 ### What You’ll Find:
 - Task-01: Responsive Landing Page with Interactive Navigation Menu  
