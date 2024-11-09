@@ -20,3 +20,5 @@ This project was completed as part of my internship with **Prodigy InfoTech**. T
 - Gained hands-on experience with responsive web design and UI development.
 - Enhanced skills in creating dynamic, interactive web elements.
 - Practiced implementing JavaScript to manipulate the DOM based on user interactions.
+## Result :
+**Linkedin post** : https://www.linkedin.com/posts/imane-n-7aa947266_html-css-javascript-activity-7261088961974923264-qNaB?utm_source=share&utm_medium=member_desktop
