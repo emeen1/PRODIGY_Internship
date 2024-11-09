@@ -1,0 +1,464 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #a85fa5;
+    /* Dark background color for navbar */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Poppins', sans-serif;
+    /* Default font for navbar links */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.navbar .logo {
+    font-family: 'Lobster', cursive;
+    /* Apply the Lobster font to the logo */
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffffff;
+    /* Golden color for the logo */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.navbar .logo:hover {
+    color: #9e3ca1;
+    /* Change color to orange on hover */
+}
+
+/* Navbar active link */
+.nav-links li a.active {
+    color: #FFD700;
+    /* Couleur d'activation */
+    font-weight: bold;
+}
+
+/* Navbar initial link */
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+.section {
+    padding: 100px 50px;
+    text-align: center;
+    min-height: 100vh;
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* Unique Section Background Colors */
+/* Hero Section (Home) */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    min-height: 100vh;
+    background-color: white;
+    /* New attractive background color */
+    color: rgb(25, 59, 13);
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+    /* Controls the width of the text */
+    text-align: left;
+}
+
+.hero-content h2 {
+    font-size: 3.5em;
+    /* Large font size for the header */
+    font-weight: 700;
+    /* Bold header */
+    margin-bottom: 20px;
+    /* Space below the header */
+    color: #FFD700;
+    /* Golden color for the header */
+    text-transform: uppercase;
+    /* Uppercase text */
+    letter-spacing: 2px;
+    /* Spacing between letters */
+}
+
+.hero-content h2 .highlight {
+    color: #781d72;
+    /* Golden color for the word "International" */
+
+}
+
+.hero-content p .highlight2 {
+    color: #781d72;
+    /* Golden color for the word "International" */
+    font-family: 'Lobster', cursive;
+}
+
+.hero-content p {
+    font-size: 1.4em;
+    /* Slightly larger font for the paragraph */
+    line-height: 1.6;
+    /* Improve readability by spacing the lines */
+    margin-bottom: 30px;
+    /* Space below the paragraph */
+    color: #0e0d0d;
+    /* White color for the text */
+    font-family: 'Roboto';
+}
+
+.hero-image1 {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image1 img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* About Us Section */
+.about-us {
+    padding: 60px 50px;
+    background-color: #e4e3e3;
+    color: #333;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Individual Card Styling */
+.card {
+    background-color: #ffe0fd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    text-align: center;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card img {
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.8em;
+    color: #51137e;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Hover Effects for Cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Services Section */
+.services {
+    padding: 60px 50px;
+    background-color: #f3f3f3;
+    color: #333;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555;
+}
+
+/* Services Cards Container */
+.services-cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Individual Service Card Styling */
+.service-card {
+    background-color: #f4ffcb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    text-align: center;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 1.8em;
+    color: #6A0DAD;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Hover Effects for Service Cards */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .services-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Section Contact Us Styling */
+.contact-us {
+    padding: 80px 50px;
+    background-color: #690b5e;
+    color: #333;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    /* Dark color for section heading */
+}
+
+.contact-us p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #bcb7b7;
+}
+
+/* Flexbox container for contact info and image */
+.contact-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Contact Information Section */
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.contact-item i {
+    font-size: 2em;
+    color: #FFD700;
+}
+
+.info-text h3 {
+    font-size: 1.6em;
+    color: #6A0DAD;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.info-text p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+    /* Adds space between the image and the contact info */
+}
+
+.contact-image img {
+    width: 80%;
+    height: auto;
+
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .contact-info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-image {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-item i {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Content inside sections */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
