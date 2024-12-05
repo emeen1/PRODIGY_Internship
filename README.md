@@ -19,5 +19,5 @@ Each task is organized in its own directory, following the naming convention `PR
 Feel free to check out the individual tasks and explore the projects I worked on during my internship journey. The tasks are designed to give you insights into my growth as a web developer and my hands-on experience in creating functional and dynamic websites.
 
 🔗 **Explore each task below:**
-- [Task 01: Responsive Landing Page](Prodigy_WD_01/README.md)
+- [Task 01: ¨PRODIGY_WD_01](Prodigy_WD_01/README.md)
 
