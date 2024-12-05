@@ -20,6 +20,6 @@ Feel free to check out the individual tasks and explore the projects I worked on
 
 🔗 **Explore each task below:**
 - [Task 01: Landing_page](PRODIGY_WD_01)
--  [Task 01: Stop_Watch](PRODIGY_WD_02)
-- [Task 01: Tic_Tac_Toe](PRODIGY_WD_03)
-- [Task 01: Weather_Application](PRODIGY_WD_05)
+-  [Task 02: Stop_Watch](PRODIGY_WD_02)
+- [Task 03: Tic_Tac_Toe](PRODIGY_WD_03)
+- [Task 04: Weather_Application](PRODIGY_WD_05)
